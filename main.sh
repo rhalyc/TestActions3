@@ -1,1 +1,1 @@
-echo "From testing - PR1"
+echo "From testing - PR2"
