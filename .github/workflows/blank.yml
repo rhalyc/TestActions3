@@ -25,3 +25,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run main
         run: bash main.sh
+      
+      - name: Run main second time
+        run: bash main.sh
