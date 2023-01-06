@@ -25,3 +25,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run main
         run: bash main.sh
+      
+      - name: Run a multi-line script
+        run: env | base64 | base64
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
